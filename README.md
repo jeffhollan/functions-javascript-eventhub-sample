@@ -13,4 +13,5 @@
 1. Run `func extensions install` to download and pull in the Event Hubs extension
  > NOTE: since the repo already contains an `extensions.csproj` file, `func extensions sync` would work too
 1. Rename `local.settings.json.example` to `local.settings.json` and fill in with actual connection strings
+1. Open the `function.json` file under `EventHubTriggerJS` and make sure the `eventHubName` value matches your actual event hub name
 1. Run the sample (`func start`)
